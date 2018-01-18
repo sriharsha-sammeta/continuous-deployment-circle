@@ -16,7 +16,7 @@ import urllib2
 import logging
 
 # The circle.yml deploys to version 1, which maps to this URL
-HOST='https://1-dot-continuous-deployment-circle.appspot.com/'
+HOST='https://diversity-vectors-cnn2.appspot.com/'
 
 # [START e2e]
 response = urllib2.urlopen("{}/get_author/ulysses".format(HOST))
