@@ -33,7 +33,6 @@ def index():
 # [START app]
 @app.route('/get_author/<title>')
 def get_author(title):
-    print(key)
     host = 'https://www.googleapis.com/books/v1/volumes?q={}&key={}&country=US'.format(title, key)
     request = urllib2.Request(host)
     try:
