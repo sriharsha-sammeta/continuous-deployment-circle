@@ -13,4 +13,4 @@
 # limitations under the License.
 
 # Books API Key. The key is secret and should not be checked in to source control.
-key = 'your-api-key'
+key = 'AIzaSyAjVq6z5DvMa4yPNkSXeaWY_RdPMuTIXAA'
